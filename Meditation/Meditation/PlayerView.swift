@@ -47,6 +47,18 @@ struct PlayerView: View {
 
                     Slider(value: $value, in: 0...60)
                         .accentColor(.white)
+                    
+                    // MARK: Playback Time
+
+                    HStack {
+                        Text("0:00")
+                        
+                        Spacer()
+                        
+                        Text("1:00")
+                    }
+                    .font(.caption)
+                    .foregroundColor(.white)
                 }
             }
             .padding(20)
