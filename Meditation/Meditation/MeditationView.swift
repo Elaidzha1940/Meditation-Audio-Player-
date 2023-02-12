@@ -32,7 +32,20 @@ struct MeditationView: View {
                         
                         Text("0s")
                     }
+                    .font(.subheadline)
+                    .textCase(.uppercase)
+                    .opacity(0.7)
+                    
+                    Text("1 Minute Relaxing Meditation")
+                        .font(.title)
+                    
+                    Text("Meditation can produce a deep state of relaxation and a tranquil mind.")
+                    
+                    Spacer()
+                    
                 }
+                .foregroundColor(.white)
+                .padding(20)
             }
             .frame(height: UIScreen.main.bounds.height * 2 / 3)
         }
