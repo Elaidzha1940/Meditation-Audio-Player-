@@ -10,18 +10,23 @@ import SwiftUI
 struct MeditationView: View {
     var body: some View {
         
-        VStack {
-            //MARK: Image
+        VStack(spacing: 0) {
+            // MARK: Image
             
             Image("buddha")
                 .resizable()
                 .scaledToFill()
                 .frame(height: UIScreen.main.bounds.height / 3)
             
-            //MARK: Meditation Details
+            // MARK: Meditation Details
+            
             ZStack {
+                // MARK: background
                 Color(red: 24/255, green: 23/255, blue: 22/255)
                 
+                VStack(alignment: .leading, spacing: 24) {
+                    <#code#>
+                }
             }
             .frame(height: UIScreen.main.bounds.height * 2 / 3)
         }
