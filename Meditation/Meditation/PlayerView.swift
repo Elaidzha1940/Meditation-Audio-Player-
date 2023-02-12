@@ -17,6 +17,19 @@ struct PlayerView: View {
                 .scaledToFill()
                 .frame(width: UIScreen.main.bounds.width)
                 .ignoresSafeArea()
+            
+            VStack(spacing: 32) {
+            // MARK: Dismiss Button
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.system(size: 37))
+                        .foregroundColor(.white)
+                }
+            }
+            .padding(20)
         }
     }
 }
