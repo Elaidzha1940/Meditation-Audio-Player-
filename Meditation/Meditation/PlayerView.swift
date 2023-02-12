@@ -40,9 +40,13 @@ struct PlayerView: View {
                     .foregroundColor(.white)
                 
                 Spacer()
+                // MARK: Playback
                 
                 VStack(spacing: 5) {
+                    // MARK: Playback Timeline
+
                     Slider(value: $value, in: 0...60)
+                        .accentColor(.white)
                 }
             }
             .padding(20)
