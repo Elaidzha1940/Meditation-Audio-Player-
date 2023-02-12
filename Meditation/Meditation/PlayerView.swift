@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PlayerView: View {
+    
+    @State private var value: Double = 0.0
+    
     var body: some View {
         
         ZStack {
@@ -36,7 +39,11 @@ struct PlayerView: View {
                     .font(.title)
                     .foregroundColor(.white)
                 
-
+                Spacer()
+                
+                VStack(spacing: 5) {
+                    Slider(value: $value, in: 0...60)
+                }
             }
             .padding(20)
         }
