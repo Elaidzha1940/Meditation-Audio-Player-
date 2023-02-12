@@ -36,9 +36,18 @@ struct MeditationView: View {
                     .textCase(.uppercase)
                     .opacity(0.7)
                     
+                    //MARK: Title
                     Text("1 Minute Relaxing Meditation")
                         .font(.title)
                     
+                    Button {
+                        print()
+                    } label: {
+                        Label("Play", systemImage: "play.fill")
+                    }
+
+                    
+                    //MARK: Description
                     Text("Meditation can produce a deep state of relaxation and a tranquil mind.")
                     
                     Spacer()
