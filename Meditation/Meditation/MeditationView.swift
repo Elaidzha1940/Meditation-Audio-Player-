@@ -40,13 +40,19 @@ struct MeditationView: View {
                     Text("1 Minute Relaxing Meditation")
                         .font(.title)
                     
+                    //MARK: Play Button
                     Button {
                         print()
                     } label: {
                         Label("Play", systemImage: "play.fill")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                            .padding(.vertical, 10)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.white)
+                            .cornerRadius(8)
                     }
 
-                    
                     //MARK: Description
                     Text("Meditation can produce a deep state of relaxation and a tranquil mind.")
                     
