@@ -11,7 +11,12 @@ struct PlayerView: View {
     var body: some View {
         
         ZStack {
+            // MARK: Background Image
             Image("buddha")
+                .resizable()
+                .scaledToFill()
+                .frame(width: UIScreen.main.bounds.width)
+                .ignoresSafeArea()
         }
     }
 }
