@@ -25,7 +25,13 @@ struct MeditationView: View {
                 Color(red: 24/255, green: 23/255, blue: 22/255)
                 
                 VStack(alignment: .leading, spacing: 24) {
-                    <#code#>
+                    // MARK: Type & Duration
+                    
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Music")
+                        
+                        Text("0s")
+                    }
                 }
             }
             .frame(height: UIScreen.main.bounds.height * 2 / 3)
