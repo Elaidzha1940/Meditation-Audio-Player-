@@ -21,13 +21,22 @@ struct PlayerView: View {
             VStack(spacing: 32) {
             // MARK: Dismiss Button
                 
-                Button {
-                    
-                } label: {
-                    Image(systemName: "xmark.circle.fill")
-                        .font(.system(size: 37))
-                        .foregroundColor(.white)
+                HStack{
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.system(size: 37))
+                            .foregroundColor(.white)
+                    }
+                    Spacer()
                 }
+                //MARK: Title
+                Text("1 Minute Relaxing Meditation")
+                    .font(.title)
+                    .foregroundColor(.white)
+                
+
             }
             .padding(20)
         }
