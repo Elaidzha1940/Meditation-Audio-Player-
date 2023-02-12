@@ -11,6 +11,7 @@
 		E43B43EA299916DC00E841B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B43E9299916DC00E841B8 /* ContentView.swift */; };
 		E43B43EC299916DD00E841B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43B43EB299916DD00E841B8 /* Assets.xcassets */; };
 		E43B43F0299916DD00E841B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43B43EF299916DD00E841B8 /* Preview Assets.xcassets */; };
+		E43B43F7299918D400E841B8 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B43F6299918D400E841B8 /* MeditationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E43B43EB299916DD00E841B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43B43ED299916DD00E841B8 /* Meditation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meditation.entitlements; sourceTree = "<group>"; };
 		E43B43EF299916DD00E841B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E43B43F6299918D400E841B8 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E43B43E7299916DC00E841B8 /* MeditationApp.swift */,
 				E43B43E9299916DC00E841B8 /* ContentView.swift */,
+				E43B43F6299918D400E841B8 /* MeditationView.swift */,
 				E43B43EB299916DD00E841B8 /* Assets.xcassets */,
 				E43B43ED299916DD00E841B8 /* Meditation.entitlements */,
 				E43B43EE299916DD00E841B8 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43B43EA299916DC00E841B8 /* ContentView.swift in Sources */,
+				E43B43F7299918D400E841B8 /* MeditationView.swift in Sources */,
 				E43B43E8299916DC00E841B8 /* MeditationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
