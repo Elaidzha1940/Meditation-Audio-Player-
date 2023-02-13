@@ -17,4 +17,15 @@ extension DateComponentsFormatter {
         
         return formatter
     }()
+    
+    static let positional: DateComponentsFormatter = {
+        print("Initialazing DateComponentsFormatter.abbreviated")
+        let formatter = DateComponentsFormatter()
+        
+        formatter.allowedUnits = [.hour, .minute, .second]
+        formatter.unitsStyle = .abbreviated
+        formatter.zeroFormattingBehavior = .pad
+        
+        return formatter
+    }()
 }
