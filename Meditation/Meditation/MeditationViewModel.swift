@@ -13,4 +13,7 @@ struct Meditation {
     let description: String
     let duration: TimeInterval
     let track: String
+    let image: String
+    
+    static let data = Meditation(title: "1 Minute Relaxing Meditation", description: "Meditation can produce a deep state of relaxation and a tranquil mind.", duration: 70, track: "meditation1", image: "buddha")
 }
