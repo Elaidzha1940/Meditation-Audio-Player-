@@ -9,9 +9,12 @@ import Foundation
 
 extension DateComponentsFormatter {
     static let abbreviated: DateComponentsFormatter = {
+        print("Initialazing DateComponentsFormatter.abbreviated")
         let formatter = DateComponentsFormatter()
         
         formatter.allowedUnits = [.hour, .minute, .second]
+        formatter.unitsStyle = .abbreviated
         
-    }
+        return formatter
+    }()
 }
