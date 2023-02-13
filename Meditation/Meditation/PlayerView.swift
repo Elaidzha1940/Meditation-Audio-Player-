@@ -21,6 +21,12 @@ struct PlayerView: View {
                 .frame(width: UIScreen.main.bounds.width)
                 .ignoresSafeArea()
             
+            //MARK: Blur View
+            Rectangle()
+                .background(.thinMaterial)
+                .opacity(0.25)
+                .ignoresSafeArea()
+            
             VStack(spacing: 32) {
             // MARK: Dismiss Button
                 
