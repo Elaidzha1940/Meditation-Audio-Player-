@@ -66,6 +66,26 @@ struct PlayerView: View {
                     PlaybackControlButton(systemName: "repeat") {
                         
                     }
+                    
+                    // MARK: Repeat Buttton
+                    PlaybackControlButton(systemName: "repeat") {
+                        
+                    }
+                    
+                    // MARK: Repeat Buttton
+                    PlaybackControlButton(systemName: "repeat") {
+                        
+                    }
+                    
+                    // MARK: Repeat Buttton
+                    PlaybackControlButton(systemName: "repeat") {
+                        
+                    }
+                    
+                    // MARK: Repeat Buttton
+                    PlaybackControlButton(systemName: "repeat") {
+                        
+                    }
                 }
             }
             .padding(20)
