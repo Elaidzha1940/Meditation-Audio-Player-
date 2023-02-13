@@ -34,7 +34,8 @@ struct MeditationView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Music")
                         
-                        Text(MeditationVM.meditation.duration.formatted() +
+                        Text(DateComponentsFormatter.abbreviated.string(from:  MeditationVM.meditation.duration) ??
+                             MeditationVM.meditation.duration.formatted() +
                              "s")
                     }
                     .font(.subheadline)

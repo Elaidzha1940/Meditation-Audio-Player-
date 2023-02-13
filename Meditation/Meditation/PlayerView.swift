@@ -9,8 +9,9 @@ import SwiftUI
 
 struct PlayerView: View {
     
+    var meditationVM: MeditationViewModel
     @State private var value: Double = 0.0
-    @Environment(\.dismiss) var dismiss 
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         
