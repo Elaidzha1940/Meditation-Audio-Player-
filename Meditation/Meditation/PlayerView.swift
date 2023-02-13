@@ -60,30 +60,31 @@ struct PlayerView: View {
                     .font(.caption)
                     .foregroundColor(.white)
                 }
-                
+                //MARK: Playback Controls
                 HStack {
                     // MARK: Repeat Buttton
                     PlaybackControlButton(systemName: "repeat") {
                         
                     }
-                    
-                    // MARK: Repeat Buttton
-                    PlaybackControlButton(systemName: "repeat") {
+                    Spacer()
+                    // MARK: Backward Buttton
+                    PlaybackControlButton(systemName: "gobackward.10") {
                         
                     }
-                    
-                    // MARK: Repeat Buttton
-                    PlaybackControlButton(systemName: "repeat") {
+                    Spacer()
+                    // MARK: Play/Pause Buttton
+                    PlaybackControlButton(systemName: "play.circle.fill",
+                                          fontSize: 45) {
                         
                     }
-                    
-                    // MARK: Repeat Buttton
-                    PlaybackControlButton(systemName: "repeat") {
+                    Spacer()
+                    // MARK: Forward Buttton
+                    PlaybackControlButton(systemName: "goforward.10") {
                         
                     }
-                    
-                    // MARK: Repeat Buttton
-                    PlaybackControlButton(systemName: "repeat") {
+                    Spacer()
+                    // MARK: Stop Buttton
+                    PlaybackControlButton(systemName: "stop.fill") {
                         
                     }
                 }
