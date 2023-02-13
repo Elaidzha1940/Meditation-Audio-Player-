@@ -60,6 +60,13 @@ struct PlayerView: View {
                     .font(.caption)
                     .foregroundColor(.white)
                 }
+                
+                HStack {
+                    // MARK: Repeat Buttton
+                    PlaybackControlButton(systemName: "repeat") {
+                        
+                    }
+                }
             }
             .padding(20)
         }
