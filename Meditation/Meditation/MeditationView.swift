@@ -17,7 +17,7 @@ struct MeditationView: View {
         VStack(spacing: 0) {
             // MARK: Image
             
-            Image("buddha")
+            Image(MeditationVM.meditation.image)
                 .resizable()
                 .scaledToFill()
                 .frame(height: UIScreen.main.bounds.height / 3)
@@ -34,14 +34,15 @@ struct MeditationView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Music")
                         
-                        Text("0s")
+                        Text(MeditationVM.meditation.duration.formatted() +
+                             "s")
                     }
                     .font(.subheadline)
                     .textCase(.uppercase)
                     .opacity(0.7)
                     
                     //MARK: Title
-                    Text("1 Minute Relaxing Meditation")
+                    Text(MeditationVM.meditation.title)
                         .font(.title)
                     
                     //MARK: Play Button
@@ -58,7 +59,7 @@ struct MeditationView: View {
                     }
                     
                     //MARK: Description
-                    Text("Meditation can produce a deep state of relaxation and a tranquil mind.")
+                    Text(MeditationVM.meditation.description)
                     
                     Spacer()
                     
@@ -78,6 +79,6 @@ struct MeditationView: View {
 struct MeditationView_Previews: PreviewProvider {
     static let meditationVM = MeditationViewModel(meditation: Meditation.data)
     static var previews: some View {
-        MeditationView(MeditationVM: <#MeditationViewModel#>)
+        MeditationView(MeditationVM: meditationVM)
     }
 }

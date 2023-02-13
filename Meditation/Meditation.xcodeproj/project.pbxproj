@@ -15,6 +15,7 @@
 		E43B43F9299920AD00E841B8 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B43F8299920AD00E841B8 /* PlayerView.swift */; };
 		E43B43FB2999269000E841B8 /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B43FA2999269000E841B8 /* PlaybackControlButton.swift */; };
 		E4A7F265299A599E00553A6C /* MeditationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A7F264299A599E00553A6C /* MeditationViewModel.swift */; };
+		E4A7F267299A5FC200553A6C /* Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A7F266299A5FC200553A6C /* Extansions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E43B43F8299920AD00E841B8 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		E43B43FA2999269000E841B8 /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
 		E4A7F264299A599E00553A6C /* MeditationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewModel.swift; sourceTree = "<group>"; };
+		E4A7F266299A5FC200553A6C /* Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E43B43E7299916DC00E841B8 /* MeditationApp.swift */,
 				E43B43E9299916DC00E841B8 /* ContentView.swift */,
 				E43B43F6299918D400E841B8 /* MeditationView.swift */,
+				E4A7F266299A5FC200553A6C /* Extansions.swift */,
 				E43B43F8299920AD00E841B8 /* PlayerView.swift */,
 				E43B43FA2999269000E841B8 /* PlaybackControlButton.swift */,
 				E4A7F264299A599E00553A6C /* MeditationViewModel.swift */,
@@ -155,6 +158,7 @@
 				E43B43F7299918D400E841B8 /* MeditationView.swift in Sources */,
 				E43B43FB2999269000E841B8 /* PlaybackControlButton.swift in Sources */,
 				E43B43E8299916DC00E841B8 /* MeditationApp.swift in Sources */,
+				E4A7F267299A5FC200553A6C /* Extansions.swift in Sources */,
 				E4A7F265299A599E00553A6C /* MeditationViewModel.swift in Sources */,
 				E43B43F9299920AD00E841B8 /* PlayerView.swift in Sources */,
 			);
