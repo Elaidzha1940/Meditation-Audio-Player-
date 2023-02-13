@@ -21,7 +21,7 @@ struct PlaybackControlButton: View {
         } label: {
             Image(systemName: systemName)
                 .font(.system(size: fontSize))
-                .foregroundColor(.white)
+                .foregroundColor(color)
         }
 
     }
@@ -29,6 +29,7 @@ struct PlaybackControlButton: View {
 
 struct PlaybackControlButton_Previews: PreviewProvider {
     static var previews: some View {
-        PlaybackControlButton()
+        PlaybackControlButton(action: {})
+            .preferredColorScheme(.dark)
     }
 }
