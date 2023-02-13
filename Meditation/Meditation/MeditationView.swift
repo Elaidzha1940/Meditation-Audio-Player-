@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MeditationView: View {
     
+    @StateObject var MeditationVM: MeditationViewModel
     @State private var showPlayer = false
     
     var body: some View {
@@ -75,7 +76,8 @@ struct MeditationView: View {
 }
 
 struct MeditationView_Previews: PreviewProvider {
+    static let meditationVM = MeditationViewModel(meditation: Meditation.data)
     static var previews: some View {
-        MeditationView()
+        MeditationView(MeditationVM: <#MeditationViewModel#>)
     }
 }
